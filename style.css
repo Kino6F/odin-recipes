@@ -1,0 +1,23 @@
+*{
+    text-decoration: none;
+}
+body{
+    background-color: beige;
+}
+h1{
+    color: crimson;
+}
+#head-img{
+    background-image: url(https://c-static.smartphoto.com/structured/repositoryimage/productcategory/fun_ideas/recipe_book/material/0001/image/material.jpg);
+    background-size: cover;
+    height: 300px;
+}
+.content{
+    text-align: center;
+    background-color: lightblue;
+    margin-left: 20%;
+    margin-top: 2%;
+    margin-right: 20%;
+    border-radius: 10px;
+    padding: 10px;
+}
