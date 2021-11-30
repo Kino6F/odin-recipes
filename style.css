@@ -12,15 +12,20 @@ h1{
     background-size: cover;
     height: 300px;
 }
+
+.content-all{
+    display: flex;
+}
 .content{
     text-align: center;
     background-color: lightblue;
-    margin-left: 20%;
-    margin-top: 2%;
-    margin-right: 20%;
+    margin: 2% 2%;
     border-radius: 10px;
     padding: 10px;
+    flex: 1;
 }
+
+/* -------Span tryings------*/
 #position-left{
     text-align: left;
     margin-left: 10%;
@@ -39,4 +44,21 @@ span#night-right{
     border-color: lightgreen;
     width: 50px;
     padding: 20px;
+}
+
+/* --- Footer --- */
+#footer{
+    background-color: chocolate;
+    display: flex;
+}
+#footer div{
+    height: 100px;
+    text-align: center;
+    padding: 30px;
+    flex: 1 1 0%;
+    border-style: solid;
+    border-color: crimson;
+}
+#footer div#footer-name{
+    flex: 5 1 0%;
 }
