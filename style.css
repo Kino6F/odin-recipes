@@ -21,3 +21,22 @@ h1{
     border-radius: 10px;
     padding: 10px;
 }
+#position-left{
+    text-align: left;
+    margin-left: 10%;
+}
+#position-right{
+    text-align: right;
+}
+span#hello-left{
+    border-style: solid;
+    border-color: lightcoral;
+    padding: 5px;
+}
+span#night-right{
+    display: inline-block;
+    border-style: solid;
+    border-color: lightgreen;
+    width: 50px;
+    padding: 20px;
+}
