@@ -15,6 +15,7 @@ h1{
 
 .content-all{
     display: flex;
+    flex-direction: column;
 }
 .content{
     text-align: center;
